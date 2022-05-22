@@ -6,7 +6,7 @@ The smart contract is written in solidity.
 
 1. You can use any editor you like to make the contract. For this tutorial we recommend the online IDE [remix.ethereum.org]
    - Never used remix before? Checkout [Solidity Basics and Remix Tutorial, Lesson #1](https://www.youtube.com/watch?v=5dcRMHUhA20)
-2. Go to remix.ethereum.org
+2. Go to https://remix.ethereum.org
 3. Check out the "Solidity Compiler", and "Deploy and Run Transactions" tabs. If they are not present, enable them in the plugin manager
 4. Create a new solidity file in remix, named `mood.sol`
 5. Write the contract
