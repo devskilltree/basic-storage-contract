@@ -1,21 +1,16 @@
-//specify the version of solidity
-pragma solidity ^0.4.24;
+// SPDX-License-Identifier: GPL-3.0
 
-/// a simple set and get function for mood defined: 
+pragma solidity 0.8.14;
 
-//define the contract
-contract MoodDiary{
-    
-    //create a variable called mood
+contract MoodContract {
+
     string mood;
-    
-    //create a function that writes a mood to the smart contract
-    function setMood(string _mood) public{
-        mood = _mood;
+
+    function setMood(string memory mymood) public {
+        mood = mymood;
     }
-    
-    //create a function the reads the mood from the smart contract
-    function getMood() public view returns(string){
+
+    function getMood() public view returns (string memory){
         return mood;
     }
 }
